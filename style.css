@@ -1,0 +1,56 @@
+/* Reset default margins and paddings to reapply mine. */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling. */
+body {
+  min-height: 100vh;
+  background-color: hsl(216, 15%, 48%);
+  font-family: Outfit, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Container Styling. */
+.container {
+  background-color: hsl(212, 45%, 89%);
+  text-align: center;
+  border-radius: 20px;
+  padding: 1.5rem;
+  width: 320px;
+}
+
+/* Image Styling. */
+img {
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 1.25rem;
+}
+
+/* Heading Styling. */
+h1 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: hsl(218, 44%, 22%);
+}
+
+/* Paragraph Styling. */
+p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0;
+  color: hsl(220, 15%, 55%);
+}
+
+/* Used Media Queries to tweak the webpage better at larger screen sizes. */
+@media (min-width: 1440px) {
+  .container {
+    max-width: 22rem;
+  }
+}
